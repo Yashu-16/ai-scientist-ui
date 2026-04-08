@@ -55,7 +55,7 @@ export default function LandingPage() {
             </div>
             <div>
               <p className="text-sm font-bold text-gray-900 leading-none">AI Scientist</p>
-              <p className="text-[10px] text-gray-400">Drug Discovery V5</p>
+              <p className="text-[10px] text-gray-400">Drug Discovery</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
@@ -80,7 +80,7 @@ export default function LandingPage() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-100 rounded-full px-4 py-1.5 mb-6">
             <span className="flex h-2 w-2 rounded-full bg-blue-500 animate-pulse" />
-            <span className="text-xs font-bold text-blue-700 uppercase tracking-wide">V5 · Decision & Risk Intelligence Platform</span>
+            <span className="text-xs font-bold text-blue-700 uppercase tracking-wide">Decision & Risk Intelligence Platform</span>
           </div>
 
           <h1 className="text-5xl sm:text-6xl font-black text-gray-900 leading-tight mb-4 tracking-tight">
@@ -308,7 +308,7 @@ export default function LandingPage() {
             <div className="h-6 w-6 rounded bg-blue-600 flex items-center justify-center">
               <Dna className="h-3 w-3 text-white" />
             </div>
-            <p className="text-sm font-semibold text-gray-400">AI Scientist V5</p>
+            <p className="text-sm font-semibold text-gray-400">AI Scientist</p>
           </div>
           <div className="flex flex-wrap items-center gap-3 text-xs text-gray-500">
             <span>FastAPI + Next.js + GPT-4o-mini</span>
