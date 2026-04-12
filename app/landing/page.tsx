@@ -11,7 +11,7 @@ import {
 
 const DISEASES_CYCLE = [
   "Alzheimer disease", "Parkinson disease", "breast cancer",
-  "type 2 diabetes", "rheumatoid arthritis", "lung cancer",
+  "type 2 diabetes", "rheumatoid arthritis", "lung cancer", "Many more...",
 ]
 
 const FEATURES = [
