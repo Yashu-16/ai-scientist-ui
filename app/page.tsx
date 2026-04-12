@@ -244,9 +244,9 @@ export default function LandingPage() {
           <p className="text-gray-500 text-sm mb-8">No credit card required for the free plan</p>
           <div className="grid grid-cols-3 gap-4 mb-8">
             {[
-              { plan:"Free",         price:"₹0",        analyses:"3 analyses/month",  cta:"Get Started",  highlight: false },
-              { plan:"Academic",     price:"₹999/mo",   analyses:"50 analyses/month", cta:"Start Trial",  highlight: true  },
-              { plan:"Professional", price:"₹4,999/mo", analyses:"Unlimited",         cta:"Start Trial",  highlight: false },
+              { plan:"Free",         price:"$0",    analyses:"3 analyses/month",  cta:"Get Started", highlight: false },
+              { plan:"Academic",     price:"$25/mo",analyses:"50 analyses/month", cta:"Start Trial", highlight: true  },
+              { plan:"Professional", price:"$99/mo",analyses:"Unlimited",         cta:"Start Trial", highlight: false },
             ].map(({ plan, price, analyses, cta, highlight }) => (
               <div key={plan} className={`bg-white rounded-2xl p-6 border ${highlight ? "border-blue-500 ring-2 ring-blue-100" : "border-gray-200"}`}>
                 <p className="text-sm font-bold text-gray-900 mb-1">{plan}</p>
