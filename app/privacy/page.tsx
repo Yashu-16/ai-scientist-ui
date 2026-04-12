@@ -3,14 +3,14 @@ import Link from "next/link"
 import { Dna } from "lucide-react"
 
 export const metadata = {
-  title: "Privacy Policy — AI Scientist",
-  description: "Privacy Policy for AI Scientist Drug Discovery Platform",
+  title: "Privacy Policy — Causyn AI",
+  description: "Privacy Policy for Causyn AI Drug Discovery Platform",
 }
 
 const LAST_UPDATED = "April 12, 2026"
-const COMPANY      = "AI Scientist"
-const EMAIL        = "privacy@aiscientist.com"
-const WEBSITE      = "https://aiscientist.com"
+const COMPANY      = "Causyn AI"
+const EMAIL        = "privacy@causyn.ai"
+const WEBSITE      = "https://causyn.ai"
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
@@ -203,7 +203,7 @@ export default function PrivacyPage() {
             For privacy questions or to exercise your rights, contact our Privacy Team at:
           </p>
           <div className="bg-gray-50 rounded-xl p-4 mt-2">
-            <p><strong>AI Scientist — Privacy Team</strong></p>
+            <p><strong>Causyn AI — Privacy Team</strong></p>
             <p>Email: <a href={`mailto:${EMAIL}`} className="text-blue-600">{EMAIL}</a></p>
             <p>Website: <a href={WEBSITE} className="text-blue-600">{WEBSITE}</a></p>
           </div>

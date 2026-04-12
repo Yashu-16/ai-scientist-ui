@@ -27,7 +27,7 @@ export default function PricingPage() {
   function handleUpgrade(plan: PlanConfig) {
     if (plan.id === "FREE")       return
     if (plan.id === "ENTERPRISE") {
-      window.location.href = "mailto:sales@aiscientist.com?subject=Enterprise Plan Inquiry"
+      window.location.href = "mailto:sales@causyn.ai?subject=Enterprise Plan Inquiry"
       return
     }
     // Direct to billing page — Stripe integration
@@ -210,7 +210,7 @@ export default function PricingPage() {
               },
               {
                 q: "Do you offer academic or non-profit discounts?",
-                a: "Yes. Contact us at sales@aiscientist.com with your institutional email for special pricing."
+                a: "Yes. Contact us at sales@causyn.ai with your institutional email for special pricing."
               },
               {
                 q: "Is my data secure?",
@@ -218,7 +218,7 @@ export default function PricingPage() {
               },
               {
                 q: "Is this platform suitable for clinical decisions?",
-                a: "No. AI Scientist is for exploratory research only. All outputs require independent validation by qualified researchers."
+                a: "No. Causyn AI is for exploratory research only. All outputs require independent validation by qualified researchers."
               },
               {
                 q: "Do you provide invoices?",
@@ -226,7 +226,7 @@ export default function PricingPage() {
               },
               {
                 q: "What is your refund policy?",
-                a: "We offer a 14-day money-back guarantee on all paid plans. Contact support@aiscientist.com to request a refund."
+                a: "We offer a 14-day money-back guarantee on all paid plans. Contact support@causyn.ai to request a refund."
               },
             ].map(({ q, a }) => (
               <div key={q} className="border-b border-gray-100 pb-4 last:border-0 last:pb-0">
@@ -248,13 +248,13 @@ export default function PricingPage() {
           </p>
           <div className="flex items-center justify-center gap-3">
             <a
-              href="mailto:sales@aiscientist.com?subject=Enterprise Plan Inquiry"
+              href="mailto:sales@causyn.ai?subject=Enterprise Plan Inquiry"
               className="bg-blue-600 text-white px-6 py-2.5 rounded-xl text-sm font-bold hover:bg-blue-700 transition-colors"
             >
               Contact Sales
             </a>
             <a
-              href="mailto:sales@aiscientist.com?subject=Demo Request"
+              href="mailto:sales@causyn.ai?subject=Demo Request"
               className="border border-slate-600 text-slate-300 px-6 py-2.5 rounded-xl text-sm font-medium hover:bg-slate-700 transition-colors"
             >
               Request Demo
