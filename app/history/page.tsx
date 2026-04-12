@@ -260,7 +260,7 @@ export default function HistoryPage() {
                     {/* Date */}
                     <div className="col-span-1">
                       <p className="text-xs text-gray-400">
-                        {new Date(a.createdAt).toLocaleDateString("en-IN", {
+                        {new Date(a.createdAt).toLocaleDateString("en-US", {
                           day: "numeric", month: "short"
                         })}
                       </p>
