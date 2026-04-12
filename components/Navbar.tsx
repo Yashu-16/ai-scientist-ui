@@ -248,9 +248,9 @@ export function Navbar() {
               type:      "paper",
               title:     "📄 New Research Papers",
               message:   `${total} new papers found across tracked diseases. Stay updated with the latest research.`,
-              link:      "/updates",
+              link:      "/hypotheses?tab=updates",
               linkLabel: "View Updates",
-            })
+          })
           }
         }
       } catch {}
